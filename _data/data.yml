@@ -83,7 +83,7 @@ publications:
 talks:
     title: Conference
     intro: |
-    talks:
+    international_talks:
       ### 査読付き国際会議
       - title: Using Binary Decision Diagrams to Enumerate Inductive Logic Programming Solutions
         link: "#"
@@ -93,6 +93,7 @@ talks:
         review: yes
         international: yes
 
+    domestic_talks:
       ### 国内会議
       - title: Metric Learning for Labeled Ordered Trees with pq-grams
         link: "#"
@@ -110,7 +111,7 @@ talks:
         review: no
         international: no
 
-        
+    domestic_workshops:
       # 国内ワークショップ
       - title: Metric Learning for Labeled Ordered Trees with pq-grams
         link: "#"

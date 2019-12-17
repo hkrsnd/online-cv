@@ -18,31 +18,36 @@
 
   <!-- REVIEWED -->
   <h4>International Conference (Reviewed)</h4>
-  {% for talk in talks.talks %}
+  {% for talk in talks.international_talks %}
   <div class="item">
-    {% if talk.review %}
-	    <li>{{ talk.title }}</li>
-	    <div class="publication-authors">{{ talk.authors }}</div>
-		<div class="publication-conference">{{ talk.conference }}</div>
-		<div class="publication-status">{{ talk.type }}</div>
-    {% else %}
-    {% endif %}
+	<li>{{ talk.title }}</li>
+	<div class="publication-authors">{{ talk.authors }}</div>
+	<div class="publication-conference">{{ talk.conference }}</div>
+	<div class="publication-status">{{ talk.type }}</div>
   </div><!--//item-->
   {% endfor %}
 
   
   <h4>Domestic Conference (Not Reviewed)</h4>
-  {% for talk in talks.talks %}
+  {% for talk in talks.domestic_talks %}
   <div class="item">
-    {% if talk.review %}
-    {% else %}
-	    <li>{{ talk.title }}</li>
-	    <div class="publication-authors">{{ talk.authors }}</div>
-		<div class="publication-conference">{{ talk.conference }}</div>
-		<div class="publication-status">{{ talk.type }}</div>
-    {% endif %}
+	<li>{{ talk.title }}</li>
+	<div class="publication-authors">{{ talk.authors }}</div>
+	<div class="publication-conference">{{ talk.conference }}</div>
+	<div class="publication-status">{{ talk.type }}</div>
   </div><!--//item-->
   {% endfor %}
+
+  <h4>Others</h4>
+  {% for talk in talks.domestic_workshops %}
+  <div class="item">
+	<li>{{ talk.title }}</li>
+	<div class="publication-authors">{{ talk.authors }}</div>
+	<div class="publication-conference">{{ talk.conference }}</div>
+	<div class="publication-status">{{ talk.type }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
 
   <!-- 
   {% for talk in talks.talks %}
