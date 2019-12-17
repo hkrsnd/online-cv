@@ -81,14 +81,21 @@ publications:
         conference: ILP2018
 
 talks:
-    title: Publications
+    title: Talks
     intro: |
     talks:
       - title: Using Binary Decision Diagrams to Enumerate Inductive Logic Programming Solutions
         link: "#"
         authors: Hikaru Shindo, Masaaki Nishino, and Akihiro Yamamoto
         conference: ILP2018
-  
+        type: oral
+
+      - title: Metric Learning for Labeled Ordered Trees with pq-grams
+        link: "#"
+        authors: Hikaru Shindo, Masaaki Nishino, Yasuaki Kobayashi, and Akihiro Yamamoto
+        conference: Summar Workshop of JSPS KAKENHI(S) Discrete Structure Manipulation
+System Project, Sapporo, Japan, July 2019.
+        type: poster
   
         
 experiences:
