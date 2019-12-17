@@ -14,8 +14,8 @@ sidebar:
     # Sidebar links
     email: hikarushindo[at]iip.ist.i.kyoto-u.ac.jp
     phone: (+81)90-000-000
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
+    website: blog.hkrsnd.com #do not add http://
+    linkedin: hkrsnd
     github: hkrsnd
     gitlab:
     bitbucket:
@@ -52,8 +52,8 @@ career-profile:
       Second paragraph if required.
 education:
     - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+      university: Kyoto University
+      time: 2018 - present
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -62,9 +62,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BSc in Computer Science
+      university: Kyoto University
+      time: 2014 - 2018
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
