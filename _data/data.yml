@@ -126,6 +126,11 @@ talks:
   
         
 experiences:
+    - role: Researcher (Intern)
+      time: 2019 - Present
+      company: NTT Communication Science Laboratories, Kyoto, Japan
+      details: |
+        Research about differentiable probabilistic logic programming in Linguistic Intelligence Research Group.
     - role: Machine Learning Engineer (Intern)
       time: 2018 - Present
       company: Rist Inc., Kyoto, Japan
