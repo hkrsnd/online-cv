@@ -87,7 +87,7 @@ talks:
       - title: Using Binary Decision Diagrams to Enumerate Inductive Logic Programming Solutions
         link: "#"
         authors: Hikaru Shindo, Masaaki Nishino, and Akihiro Yamamoto
-        conference :28th International Conference on Inductive Logic Programming (ILP 2018), Ferrara, Italy, September 2018.
+        conference: 28th International Conference on Inductive Logic Programming (ILP 2018), Ferrara, Italy, September 2018.
         type: oral
         review: yes
 
