@@ -17,7 +17,7 @@
   {% endif %}
 
   <!-- REVIEWED -->
-  <h2>International Conference (Reviewed)</h2>
+  <h4>International Conference (Reviewed)</h4>
   {% for talk in talks.talks %}
   <div class="item">
     {% if talk.review %}
@@ -31,7 +31,7 @@
   {% endfor %}
 
   
-  <h2>Domestic Conference (Not Reviewed)</h2>
+  <h4>Domestic Conference (Not Reviewed)</h4>
   {% for talk in talks.talks %}
   <div class="item">
     {% if talk.review %}
@@ -44,7 +44,7 @@
   </div><!--//item-->
   {% endfor %}
 
-
+  <!-- 
   {% for talk in talks.talks %}
   <div class="item">
     {% if talk.link %}
@@ -54,8 +54,8 @@
     {% endif %}
     <div class="publication-authors">{{ talk.authors }}</div>
     <div class="publication-conference">{{ talk.conference }}</div>
-  </div><!--//item-->
-  {% endfor %}
+  </div>
+  {% endfor %} -->
 
 </section><!--//section-->
 {% endif %}
