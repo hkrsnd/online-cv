@@ -49,6 +49,7 @@ education:
     - degree: MSc in Computer Science
       university: Kyoto University
       time: 2018 - present
+      supervisor: Akihiro Yamamoto
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -60,6 +61,7 @@ education:
     - degree: BSc in Computer Science
       university: Kyoto University
       time: 2014 - 2018
+      supervisor: Akihiro Yamamoto
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -77,6 +79,17 @@ publications:
         link: "#"
         authors: Hikaru Shindo, Masaaki Nishino, and Akihiro Yamamoto
         conference: ILP2018
+
+talks:
+    title: Publications
+    intro: |
+    talks:
+      - title: Using Binary Decision Diagrams to Enumerate Inductive Logic Programming Solutions
+        link: "#"
+        authors: Hikaru Shindo, Masaaki Nishino, and Akihiro Yamamoto
+        conference: ILP2018
+  
+  
         
 experiences:
     - role: Machine Learning Engineer (Intern)
