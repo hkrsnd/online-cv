@@ -16,6 +16,35 @@
   </div><!--//intro-->
   {% endif %}
 
+  <!-- REVIEWED -->
+  <h2>International Conference (Reviewed)</h2>
+  {% for talk in talks.talks %}
+  <div class="item">
+    {% if talk.review %}
+	    <li>{{ talk.title }}</li>
+	    <div class="publication-authors">{{ talk.authors }}</div>
+		<div class="publication-conference">{{ talk.conference }}</div>
+		<div class="publication-status">{{ talk.type }}</div>
+    {% else %}
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+  
+  <h2>Domestic Conference (Not Reviewed)</h2>
+  {% for talk in talks.talks %}
+  <div class="item">
+    {% if talk.review %}
+    {% else %}
+	    <li>{{ talk.title }}</li>
+	    <div class="publication-authors">{{ talk.authors }}</div>
+		<div class="publication-conference">{{ talk.conference }}</div>
+		<div class="publication-status">{{ talk.type }}</div>
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+
   {% for talk in talks.talks %}
   <div class="item">
     {% if talk.link %}

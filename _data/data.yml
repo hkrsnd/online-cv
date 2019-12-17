@@ -81,7 +81,7 @@ publications:
         conference: ILP2018
 
 talks:
-    title: Talks
+    title: Conference
     intro: |
     talks:
       - title: Using Binary Decision Diagrams to Enumerate Inductive Logic Programming Solutions
@@ -90,6 +90,7 @@ talks:
         conference: 28th International Conference on Inductive Logic Programming (ILP 2018), Ferrara, Italy, September 2018.
         type: oral
         review: yes
+        international: yes
 
       - title: Metric Learning for Labeled Ordered Trees with pq-grams
         link: "#"
@@ -97,6 +98,7 @@ talks:
         conference: Summar Workshop of JSPS KAKENHI(S) Discrete Structure Manipulation System Project, Sapporo, Japan, July 2019.
         type: poster
         review: no
+        international: no
 
       - title: Using Binary Decision Diagrams to Enumerate Inductive Logic Programming Solutions
         link: "#"
@@ -104,6 +106,7 @@ talks:
         conference: 106th Special Interest Group on Fundamental Problems in Artificial Intelligence (SIG-FPAI), pp.4–9, Kagoshima, Japan, March 2018.
         type: oral
         review: no
+        international: no
       
   
         
